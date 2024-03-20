@@ -9,6 +9,6 @@ describe('Testes para editar contatos', () => {
         cy.get('input[type="text"]').type('erivelton correia')
         cy.get('input[type="email"]').type('eriveltoncorreia@teste.com')
         cy.get('input[type="tel"]').type('44 12345678')
-        cy.get('.adicionar').click()
+        cy.get(':nth-child(2) > .sc-gueYoa > .edit').click()
     })
 })
